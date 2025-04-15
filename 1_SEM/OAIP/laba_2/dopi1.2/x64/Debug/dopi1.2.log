@@ -1,0 +1,5 @@
+﻿  dopi1.2.cpp
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед 2 сем\лаба 3\laba3.1\dopi1.2\dopi1.2.cpp(41,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед 2 сем\лаба 3\laba3.1\dopi1.2\dopi1.2.cpp(45,38): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед 2 сем\лаба 3\laba3.1\dopi1.2\dopi1.2.cpp(67,9): warning C4101: number: неиспользованная локальная переменная
+  dopi1.2.vcxproj -> C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед 2 сем\лаба 3\laba3.1\x64\Debug\dopi1.2.exe

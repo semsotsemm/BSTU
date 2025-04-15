@@ -1,0 +1,3 @@
+Its creator, Guido van Rossum, wanted a name that was short, unique, and slightly mysterious.
+Developers share their code openly, allowing others to use, modify, and improve it. 
+They removed the moth and taped it to their logbook, coining the term "debugging."
