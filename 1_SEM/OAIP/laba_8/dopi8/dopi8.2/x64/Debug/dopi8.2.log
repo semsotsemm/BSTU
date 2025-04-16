@@ -1,0 +1,4 @@
+﻿  dopi8.2.cpp
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 8\dopi8\dopi8.2\dopi8.2.cpp(16,11): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 8\dopi8\dopi8.2\dopi8.2.cpp(21,11): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  dopi8.2.vcxproj -> C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 8\dopi8\x64\Debug\dopi8.2.exe
