@@ -1,0 +1,4 @@
+﻿  dopi2.cpp
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 11\laba11.1\dopi2\dopi2.cpp(13,15): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 11\laba11.1\dopi2\dopi2.cpp(27,29): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+  dopi2.vcxproj -> C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 11\laba11.1\x64\Debug\dopi2.exe
