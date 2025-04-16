@@ -1,0 +1,5 @@
+﻿  laba11.2.cpp
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 11\laba11.1\laba11.2\laba11.2.cpp(3,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 11\laba11.1\laba11.2\laba11.2.cpp(10,10): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 11\laba11.1\laba11.2\laba11.2.cpp(11,9): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  laba11.2.vcxproj -> C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 11\laba11.1\x64\Debug\laba11.2.exe
