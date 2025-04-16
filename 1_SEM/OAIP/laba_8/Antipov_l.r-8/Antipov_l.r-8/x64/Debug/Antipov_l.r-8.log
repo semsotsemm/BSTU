@@ -1,0 +1,4 @@
+﻿  Antipov_l.r-8.cpp
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 8\Antipov_l.r-8\Antipov_l.r-8\Antipov_l.r-8.cpp(4,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 8\Antipov_l.r-8\Antipov_l.r-8\Antipov_l.r-8.cpp(7,27): warning C4101: i: неиспользованная локальная переменная
+  Antipov_l.r-8.vcxproj -> C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 8\Antipov_l.r-8\x64\Debug\Antipov_l.r-8.exe
