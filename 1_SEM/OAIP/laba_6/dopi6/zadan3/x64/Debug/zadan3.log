@@ -1,0 +1,5 @@
+﻿  zadan3.cpp
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 6\Antipov_l.r-6\zadan3\zadan3.cpp(3,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 6\Antipov_l.r-6\zadan3\zadan3.cpp(8,9): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 6\Antipov_l.r-6\zadan3\zadan3.cpp(12,9): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  zadan3.vcxproj -> C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 6\Antipov_l.r-6\x64\Debug\zadan3.exe
