@@ -1,0 +1,7 @@
+﻿  dopi1.2.cpp
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 6\Antipov_l.r-6\dopi1.2\dopi1.2.cpp(7,16): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 6\Antipov_l.r-6\dopi1.2\dopi1.2.cpp(7,31): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 6\Antipov_l.r-6\dopi1.2\dopi1.2.cpp(11,20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 6\Antipov_l.r-6\dopi1.2\dopi1.2.cpp(12,27): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 6\Antipov_l.r-6\dopi1.2\dopi1.2.cpp(14,9): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  dopi1.2.vcxproj -> C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 6\Antipov_l.r-6\x64\Debug\dopi1.2.exe
