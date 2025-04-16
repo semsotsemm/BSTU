@@ -1,0 +1,4 @@
+﻿  laba12.3.cpp
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 12\laba12.1\laba12.3\laba12.3.cpp(2,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 12\laba12.1\laba12.3\laba12.3.cpp(7,23): warning C4305: инициализация: усечение из "double" в "float"
+  laba12.3.vcxproj -> C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 12\laba12.1\x64\Debug\laba12.3.exe
