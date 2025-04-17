@@ -1,0 +1,32 @@
+.grid{
+display: grid;
+grid-template-columns: 5% 20% 20%;
+grid-column-gap: 20px ;
+text-align: center;
+}
+.el{
+    height: 600px;
+    border: 2px solid black;
+    border-collapse: collapse ;
+}
+.el2{
+    height: 600px;
+    border: 2px solid black;
+    border-collapse: collapse ;
+    font-size: 20px;
+}
+.main{
+    font-weight: 900;
+    font-size: 40px;
+}
+.first{
+    margin-top: 270px;
+    transform: rotate(-90deg);
+}
+.cont{
+    color: red;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

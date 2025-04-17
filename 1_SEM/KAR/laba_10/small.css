@@ -1,0 +1,4 @@
+article{
+    color: blue;
+}
+@import url(small.css) (max-width: 480px);

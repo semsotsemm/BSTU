@@ -1,0 +1,118 @@
+.el{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    }
+    .el1{
+        height: 420px;
+        width: 420px;
+        border: 2px solid black;
+        grid-row: 2/4; 
+        grid-column: 4/6; 
+        }
+        .el2{
+            height: 420px;
+            width: 420px;
+            border: 2px solid black;
+            grid-row: 3/5; 
+            grid-column: 1/3; 
+            }
+.grid{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    text-align: center;
+    }
+    #pick1{
+        background-image: url(python.png);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: 20px 20px;
+    }
+    #pick2{
+        background-image: url(js.png);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: 10px ;
+    }
+    #pick3{
+        background-image: url(java.png);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: 10px 0;
+    }
+    #pick4{
+        background-image: url(ts.png);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: 10px 10px;
+    }
+    #pick5{
+        background-image: url(csh.png);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: 10px 10px;
+    }
+    #pick6{
+        background-image: url(plus.png);
+        background-size: 82%;
+        background-repeat: no-repeat;
+        background-position: 20px 5px;
+    }
+    #pick7{
+        background-image: url(htmll5.png);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: 10px 10px;
+    }
+    #pick8{
+        background-image: url(csss.png);
+        background-size: 110%;
+        background-repeat: no-repeat;
+        background-position: -10px;
+    }
+    #pick9{
+        background-image: url(pngegg.png);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: 10px 14px;
+    }
+    #pick10{
+        background-image: url(php.png);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: 10px 14px;
+    }
+    #pick11{
+        background-image: url(rr.png);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: 10px 20px;
+    }
+    #pick12{
+        background-image: url(Kotl.png);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: 10px 10px;
+    }
+    #pick13{
+        background-image: url(httml.gif);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: 20px 10px;
+    }
+    #pick14{
+        float: left;
+        width: 250px;
+        height: 250px;
+        background-image: url(css33.gif);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    span{
+        font-size: 25px;
+    }
+    .sp{
+        color: red;
+    }

@@ -1,0 +1,206 @@
+header{
+    display: flex;
+    border: 2px solid black;
+    width: 90%;
+    height: 80px;
+    justify-content: center;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+aside{
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 92%;
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.el{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    border: black solid 2px;  
+    height: 800px;
+}
+.el2{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 32%;
+    border: black solid 2px;  
+     height: 800px;
+}
+video{
+    height: 300px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+}
+iframe{
+    margin-top: 10px;
+    margin-left: -2px;
+}
+p{
+    font-size: 19px;
+    height: 100%;
+    text-align: center;
+}
+.second{
+    background-image: url(aloxa.gif);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 50% 0px;
+}
+audio{
+    width: 100%;
+}
+.el3{
+    min-height: 800px;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 32%;
+    border: black solid 2px;  
+    overflow: auto;
+    height: 800px;
+}
+span{
+    color: red;
+    font-weight: 700;
+}
+.nav {
+  display: flex;
+  font-size: 17px;    
+  color: white;
+  margin-left: 40%;
+}
+.content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 29.8%;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.content a {
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.content a:hover {
+  border-collapse:collapse ;
+  background-color: #ddd;
+  color: black;
+}
+nav:hover .content {
+  display: block;
+}
+button{
+border: 1px solid black;
+width: 100%;
+background-color: white;
+color: black;
+font-size: 19px;
+font-family: Roboto,sans-serif;
+text-decoration: none;
+height: 70px;
+}
+button:hover{
+background-color: #d6d6d6;
+}
+@media (max-width: 600рх) {
+    button{ background-color: red;}
+}
+nav:hover ~ header{
+    margin-top: 150px;
+}
+iframe{
+    height: 400px;
+    width: 100%;
+}
+.pick{
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    width: 350px;
+    height: 350px;
+    border: solid black 1px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+#pick1{
+    width: 100%;
+    height: 320px;
+    background-image: url(csh.png);
+    background-size: 84%;
+    background-position: 30px;
+    background-repeat: no-repeat;
+}
+#pick2{
+    width: 100%;
+    height: 320px;
+    background-image: url(csss.png);
+    background-size: 90%;
+    background-position: 20px -10px;
+    background-repeat: no-repeat;
+}
+#pick3{
+    width: 100%;
+    height: 320px;
+    background-image: url(htmll5.png);
+    background-size: 70%;
+    background-position: 50px 30px;
+    background-repeat: no-repeat;
+}
+#pick4{
+    width: 100%;
+    height: 320px;
+    background-image: url(js.png);
+    background-size: 70%;
+    background-position: 60px 10px;
+    background-repeat: no-repeat;
+}
+#pick5{
+    width: 100%;
+    height: 90%;
+    background-image: url(plus.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 60px 10px;
+}
+#pick6{
+    width: 100%;
+    height: 320px;
+    background-image: url(python.png);
+    background-size: 80%;
+    background-position: 50px 20px;
+    background-repeat: no-repeat;
+}
+#pick7{
+    width: 100%;
+    height: 320px;
+    background-image: url(java.png);
+    background-size: 80%;
+    background-position: 30px;
+    background-repeat: no-repeat;
+}
+#pick8{
+    width: 100%;
+    height: 320px;
+    background-image: url(pngegg.png);
+    background-size: 83%;
+    background-position: 30px;
+    background-repeat: no-repeat;
+}
