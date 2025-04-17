@@ -1,0 +1,4 @@
+﻿  laba13.3.cpp
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 13\laba13.1\laba13.3\laba13.3.cpp(4,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 13\laba13.1\laba13.3\laba13.3.cpp(12,12): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  laba13.3.vcxproj -> C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 13\laba13.1\x64\Debug\laba13.3.exe

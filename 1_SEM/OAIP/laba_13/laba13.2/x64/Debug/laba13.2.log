@@ -1,0 +1,7 @@
+﻿  laba13.2.cpp
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 13\laba13.1\laba13.2\laba13.2.cpp(4,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 13\laba13.1\laba13.2\laba13.2.cpp(10,17): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 13\laba13.1\laba13.2\laba13.2.cpp(11,17): warning C4129: "/": нераспознанная escape-последовательность символов
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 13\laba13.1\laba13.2\laba13.2.cpp(14,17): warning C4129: "/": нераспознанная escape-последовательность символов
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 13\laba13.1\laba13.2\laba13.2.cpp(17,10): warning C4129: "/": нераспознанная escape-последовательность символов
+  laba13.2.vcxproj -> C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 13\laba13.1\x64\Debug\laba13.2.exe
