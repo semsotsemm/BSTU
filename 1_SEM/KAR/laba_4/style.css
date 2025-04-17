@@ -1,0 +1,100 @@
+.bl{
+    margin: 10px;
+    width: 70px; 
+    height: 110px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.sp{
+    flex-wrap: nowrap;
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+p{
+    text-align: center;
+    font-size: 22px;
+}
+span{
+    font-size: 22px;
+}
+.txt{
+    display: inline;
+}
+.spa{
+    border: #FF4500 solid;
+    margin: 0 5px 0 5px;
+    background-color: #FFA500;
+    display: inline;
+}
+.block1{
+        border-top: 4px solid orange;
+        border-right: 4px solid blue;
+        border-bottom: 4px solid yellow;
+        border-left: 4px solid brown;
+        margin-top: 50px;
+}
+.block2{
+    border-right: 4px solid #007BA7;
+    border-left: 4px solid #007BA7;
+    margin-top: 50px;
+}
+.block3{
+    border-top: 4px solid rgb(229 43 80);
+    margin-top: 50px;
+    border-left: 4px  #007BA7  dashed ;
+    border-right: 4px  #007BA7  dashed ;
+    border-bottom: 4px  #007BA7  dashed ;
+}
+.block4{
+    margin-top: 50px;
+    border: orange 1px dotted;
+}
+.block5{
+    margin-top: 50px;
+    border-bottom: 2px  #000a99  solid ;
+    border-top: 2px  #000a99  solid ;
+    border-left: 4px dashed rgb(122, 0, 0);
+    border-right: 4px dashed rgb(122, 0, 0);
+}
+.block6{
+    border: #B3446C double;
+    margin-top: 50px;
+}
+.block7{
+    border-top:  #808000 dashed 1px;
+    margin-top: 50px;
+    border-bottom: 3px  #FF7518  solid ;
+}
+.block8{
+    margin-top: 50px;
+    border-left: double  #CC7722 ;
+    border-bottom: double   #CC7722 ;
+}
+.block9{
+    border-right: ridge #B5A642 4px;
+    border-top: ridge #B5A642 4px;
+    margin-top: 50px;
+}
+.block10{
+    border-left: dotted rgb(0 40 0) 5px ;
+    border-right: dotted rgb(0 40 0) 5px ;
+    border-bottom: dotted rgb(0 40 0) 5px ;
+    margin-top: 50px;
+}
+.bor{
+    text-align: center;
+    margin-right: 20px;
+    height: 10%;
+    width: 6%;
+    border: solid black 6px;
+    box-sizing: border-box;
+}
+.cont{
+    text-align: center;
+    height: 10%;
+    width: 6%;
+    border: solid black 6px;
+    box-sizing: content-box;
+}

@@ -1,0 +1,58 @@
+h1{
+    text-shadow: #FC0 1px 0 10px;
+font-weight: bold;
+    text-align: center;
+    font-family: carveat;
+    margin-bottom: 0px;
+    font-size: 45px;
+}
+h2{
+    margin-top: 0.2rem;
+    margin-bottom: 1.2em;
+    font-family: exo2;
+    text-align: left;
+}
+p::first-letter {
+    font-weight: bold;
+    color: white;
+    background-color: hsla(275, 100%, 10%, 1);
+    margin-left: 25px;      
+}
+p{
+    line-height: 200%;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-family: comfortaa;
+    font-size: 20px;
+
+}
+@font-face{
+        font-family: 'exo2';
+        src: url('fonts/Exo2.ttf') format('woff');
+}
+@font-face{
+        font-family: 'carveat';
+        src: url('fonts/Caveat.ttf') format('woff');
+}
+@font-face{
+        font-family: 'comfortaa';
+        src: url('fonts/Comfortaa-VariableFont_wght.ttf') format('woff');
+}
+li{
+    font-family: comfortaa;
+    font-size: 20px;    
+}
+h2::first-letter {
+    margin-left: 25px;
+}
+span{
+    font-size: 20px;
+    font-family: comfortaa;
+}
+li::marker {
+    color: blue;
+}
+
+.qwe::first-line{
+    background-color: red;
+}

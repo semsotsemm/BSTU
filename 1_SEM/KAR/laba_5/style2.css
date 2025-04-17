@@ -1,0 +1,25 @@
+.dat{
+    text-align: center;
+    border: 3px solid rgb(59, 59, 59);
+    padding: 10px;
+    color: white;
+}
+table{
+    border-collapse: collapse;
+    empty-cells: hide;
+    text-align: center;
+    padding: 10px;
+}
+.hed{
+    background-color: rgb(0, 0, 124);
+    text-align: center;
+    border: 3px solid rgb(59, 59, 59);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
