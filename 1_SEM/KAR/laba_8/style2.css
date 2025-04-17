@@ -1,0 +1,93 @@
+.el{
+width: 350px;
+height: 320px;
+}
+.line{
+    width: 100%;
+}
+#img1{
+background-position: 0px;
+background-size: 100%;
+background-image: url(neptun1.jpg);
+animation: anim1 5s ease-in-out infinite;
+position: absolute;
+}
+#img2{
+background-position: -90px;
+background-size: 160%;
+background-image: url(neptun2.jpg);
+animation: anim2 5s ease-in-out infinite;
+position: absolute;
+}
+#img3{
+background-position: -80px;
+background-size: 150%;
+background-image: url(neptun3.webp);
+animation: anim3 5s ease-in-out infinite;
+position: absolute;
+}
+#img4{
+background-position: 0px;
+background-size: 132%;
+background-image: url(neptun4.jfif);
+animation: anim4 5s ease-in-out infinite;
+position: absolute;
+}
+@keyframes txt{
+  from  { color: black;}
+  50% {  color:rgba(0, 0, 0, 0.2);}
+  to { color: rgb(0, 0, 0);}
+}
+@keyframes anim1{
+    0%  { transform: rotateY(35deg); left: 290px; }
+    25% { transform: none; left: 290px; }
+    50% { left: 240px;} 
+    75% { transform: none;left: 240px; }
+   100%  { transform: rotateY(35deg); left: 290px; }
+  }
+  @keyframes anim2{
+      0%  { transform: rotateY(45deg); left: 340px; }
+      25% { transform: none; left: 340px; }
+      50% { left: 620px; } 
+      75% {transform: none; left: 623px;}
+      100% { transform: rotateY(45deg); left: 340px; }
+    }
+    @keyframes anim3{
+        0%  { transform: rotateY(55deg); left: 390px;}
+        25% { transform: none; left: 360px; }
+        50% { left: 1010px;  } 
+        75% { transform: none; left: 1010px;  }
+        100% { transform: rotateY(55deg); left: 390px;}
+      }
+      @keyframes anim4{
+          0%  { transform: rotateY(65deg); left: 440px; }
+          25% { transform: none; left: 440px; }
+          50% { left: 1390px;  } 
+          75% {  transform: none; left: 1390px;}
+          100% { transform: rotateY(65deg); left: 440px; }
+        }
+   .creature { 
+    margin-top: 450px;
+    width:  200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #3ac;
+    position: relative;
+   }
+   .creature::before, .creature::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    border-radius: 50%;
+    background: #000;
+    top: 40px;
+    animation: eye 3s ease-in-out infinite;
+   }
+   .creature::before { left: 55px; }
+   .creature::after { right: 55px; }
+   @keyframes eye {
+    90% { transform: none; }   
+    95% { transform: scaleY(0.1); }
+   }
+    

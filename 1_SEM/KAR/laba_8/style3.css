@@ -1,0 +1,85 @@
+.el{
+    width: 315px;
+    height: 288px;
+    margin-left: -90px;
+    }
+.line{
+        width: 100%;
+    }
+    #img1{
+    background-position: -70px;
+    background-size: 140%;
+    background-image: url(venera1.jpg);
+    animation: anim1 5s ease-in-out infinite;
+    position: absolute;
+    }
+    #img2{
+    background-position: -40px;
+    background-size: 130%;
+    background-image: url(venera2.png);
+    animation: anim2 5s ease-in-out infinite;
+    position: absolute;
+    }
+    #img3{
+    background-position: -70px;
+    background-size: 140%;
+    background-image: url(venera3.jpeg);
+    animation: anim3 5s ease-in-out infinite;
+    position: absolute;
+    }
+    #img4{
+    background-position: -60px;
+    background-size: 140%;
+    background-image: url(venera4.png);
+    animation: anim4 5s ease-in-out infinite;
+    position: absolute;
+    z-index: 2;
+    }
+    @keyframes txt{
+      from  { color: black;}
+      50% {  color:rgba(0, 0, 0, 0.2);}
+      to { color: rgb(0, 0, 0);}
+    }
+    #img5{
+    background-position: -10px;
+    background-size: 110%;
+    background-image: url(venera5.jpg);
+    animation: anim5 5s ease-in-out infinite;
+    position: absolute;
+    z-index: 1;
+    }
+    @keyframes anim1{
+        0%  {  left: 90px; margin-top: 80px; z-index: 3; filter: blur(2px);}
+        25% {  left: 430px; margin-top: 80px; height: 288px; width: 315px;   z-index: 4; filter: blur(2px);}
+         50% {  left: 810px; margin-top: 0px; height: 432px; width: 472px;   z-index: 5; filter: blur(0);} 
+        75%  {  left: 1300px; margin-top: 80px; height: 288px; width: 315px;   z-index: 2;filter: blur(2px);}
+        100%  {   left: 1660px; margin-top: 80px; z-index: 1; filter: blur(2px);} 
+      }
+      @keyframes anim2{
+          0%  {  left: 430px; margin-top: 80px; height: 288px; width: 315px;  z-index: 4; filter: blur(2px);}
+         25% {   left: 810px; margin-top: 0px; height: 432px; width: 472px;   z-index: 5; filter: blur(0);}
+        50% {   left: 1300px; margin-top: 80px; height: 288px; width: 315px;   z-index: 2; filter: blur(2px);} 
+        75% {   left: 1660px; margin-top: 80px; z-index: 1;filter: blur(2px); }
+          100%  {    left: 90px; margin-top: 80px; z-index: 3; filter: blur(2px); }
+        }
+        @keyframes anim3{
+            0%  {  left: 810px; margin-top: 0px; height: 432px; width: 472px;  z-index: 5; filter: blur(0); }
+           25% {   left: 1300px; margin-top: 80px; height: 288px; width: 315px;   z-index: 2; filter: blur(2px);}
+          40% { left: 1660px; margin-top: 80px; z-index: 1; filter: blur(2px); } 
+            75% {  left: 90px; margin-top: 80px; z-index: 3; filter: blur(2px);}
+            100%  {  left: 430px; margin-top: 80px; height: 288px; width: 315px;   z-index: 4; filter: blur(2px);}
+          }
+          @keyframes anim4{
+              0%  {   left: 1300px; margin-top: 80px; height: 288px; width: 315px;  z-index: 2; filter: blur(2px); }
+             25% {    left: 1660px; margin-top: 80px; z-index: 1; filter: blur(2px); }
+            50% {     left: 90px; margin-top: 80px; z-index: 3; filter: blur(2px); }
+              75% { left: 430px; margin-top: 80px; height: 288px; width: 315px;   z-index: 4; filter: blur(2px); }
+              100%  {  left: 810px; margin-top: 0px; height: 432px; width: 472px;   z-index: 5; filter: blur(0);}
+            }
+            @keyframes anim5{
+                0%  { left: 1660px; margin-top: 80px; z-index: 1; filter: blur(2px);}
+              25% {   left: 90px; margin-top: 80px; z-index: 3; filter: blur(2px);  } 
+              50% {     left: 430px; margin-top: 80px; height: 288px; width: 315px;   z-index: 4; filter: blur(2px);}
+                75% { left: 810px; margin-top: 0px; height: 432px; width: 472px;  z-index: 5; filter: blur(0); }
+                100%  {     left: 1300px;  margin-top: 80px; height: 288px; width: 315px;   z-index: 2; filter: blur(2px);}
+              }

@@ -1,0 +1,20 @@
+div{
+  border: 2px solid black;
+  width: 300px;
+  margin-left: 42%;
+  height: 300px;
+}
+div:hover
+{
+color: red;
+animation: anim 5s linear;
+}
+@keyframes anim{
+  from  { color: black;}
+  to { color: red;}
+}
+@keyframes txt{
+  from  { color: black;}
+  50% {  color:rgba(0, 0, 0, 0.2);}
+  to { color: rgb(0, 0, 0);}
+}
