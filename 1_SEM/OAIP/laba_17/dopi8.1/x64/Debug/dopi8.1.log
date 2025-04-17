@@ -1,0 +1,6 @@
+﻿  dopi8.1.cpp
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 17\laba17.1\dopi8.1\dopi8.1.cpp(13,29): warning C4244: +=: преобразование "float" в "int", возможна потеря данных
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 17\laba17.1\dopi8.1\dopi8.1.cpp(16,28): warning C4244: +=: преобразование "float" в "int", возможна потеря данных
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 17\laba17.1\dopi8.1\dopi8.1.cpp(59,32): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 17\laba17.1\dopi8.1\dopi8.1.cpp(59,22): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  dopi8.1.vcxproj -> C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 17\laba17.1\x64\Debug\dopi8.1.exe
