@@ -1,0 +1,4 @@
+﻿  laba15.3.cpp
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед 1 сем\лаба 15\laba15.1\laba15.3\laba15.3.cpp(4,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед 1 сем\лаба 15\laba15.1\laba15.3\laba15.3.cpp(9,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  laba15.3.vcxproj -> C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед 1 сем\лаба 15\laba15.1\x64\Debug\laba15.3.exe
