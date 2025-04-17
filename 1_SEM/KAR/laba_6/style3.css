@@ -1,0 +1,53 @@
+.div1{
+margin-top: 50px;
+background-image:  linear-gradient(blue,red);
+width: 15%;
+height: 270px;
+border: 2px solid black;
+}
+.div2{
+margin-top: 50px;
+margin-left: 2%;
+background-image:  repeating-linear-gradient(45deg,
+red 0%, 
+red 5%,
+blue 6%,
+blue 11%);
+width: 15%;
+height: 270px;
+border: 2px solid black;
+}
+.div3{
+    margin-top: 50px;
+    margin-left: 2%;
+    background-image: radial-gradient(circle at 50% 50%, rgb(212, 255, 0), rgb(0, 74, 0));
+    width: 15%;
+    height: 270px;
+    border: 2px solid black;
+}
+.div4{
+    margin-top: 50px;
+    margin-left: 2%;
+    background-image: repeating-radial-gradient(circle at 50% 50%,
+    yellow 0%,
+    yellow 9%,
+    green 10%,
+    green 19%);
+    width: 15%;
+    height: 270px;
+    border: 2px solid black;
+}
+#div5{
+    margin-top: 50px;
+    margin-left: 2%;
+    background-image: radial-gradient(circle at 50% 50%,
+    rgb(212, 255, 0) 1%,
+    rgb(212, 255, 0) 5%,
+    rgb(0, 163, 0) 40%, 
+    rgb(0, 128, 0) 55%, 
+      rgba(0, 74, 0, 0) 100% ),
+      linear-gradient(blue,rgb(255, 0, 242));
+    width: 15%;
+    height: 270px;
+    border: 2px solid black;
+}

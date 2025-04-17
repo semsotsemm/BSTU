@@ -1,0 +1,98 @@
+a{
+    text-decoration: none;
+    color:black;
+}
+table, td , th
+{
+       font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    border-collapse: collapse;
+    border:1px solid ;
+}
+.qwert{
+    z-index: 2;
+    position: absolute;
+}
+p{
+    z-index: 2;
+    font-family: sans-serif;
+}
+.sp{
+       font-family: sans-serif;
+    color: red;
+    font-size: 18px;
+}
+.el
+ {
+    background-image: url(marker.jpg);
+    background-size: 18px;
+    background-repeat:no-repeat ;
+    list-style-type: none;
+    background-position: 0 50%;
+    padding-left: 20px;
+}
+.order{
+        margin-left: 40px;
+}
+.fac{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-image: url(sticker-FIT.png);
+    background-size: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: 88%;
+    background-attachment: scroll;
+}
+p,h2,h3{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.txt1{
+    margin-left: 6px;
+    margin-bottom: 6px;
+width: 130px;
+height: 100px;
+border: 2px solid black;
+}
+.cart1{
+    background-image: url(qaz.jpg);
+    background-position: 54% 0px;
+    background-size: 270%;
+width: 130px;
+height: 210px;
+border: 2px solid black;
+}
+.cart2{
+    background-image: url(wsx.jfif);
+    background-position: 54% 0px;
+    background-size: 120%;
+width: 130px;
+height: 210px;
+border: 2px solid black;
+}
+.zadan2{
+    margin-left: 5%;
+  justify-content: flex-end;
+    width: 300px;
+  display: flex;
+}
+.txt2{
+    margin-right: 6px;
+    margin-bottom: 6px;
+width: 130px;
+height: 100px;
+border: 2px solid black;
+}
+p,span{
+    font-size: 18px;
+}
+h3{
+    font-size: 20px;
+}
+h4{
+    margin-top: 5px;
+    text-align: center;
+}

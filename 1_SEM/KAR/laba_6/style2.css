@@ -1,0 +1,67 @@
+figure{
+    width: 20%;
+    height: 280px;
+}
+.qwer{
+  display: flex;
+  flex-direction: row;
+}
+.cart{
+    width: 100%;
+    height: 240px;
+    border: 2px black solid;
+}
+#pick1{
+    background-image: url(piick/pick1.jpg);
+    background-size: 102%;
+}
+#pick2{
+    background-image: url(piick/pick2.jpg);
+    background-size: 102%;
+}
+#pick3{
+    background-image: url(piick/pick3.jfif);
+    background-size: 102%;
+}
+#pick4{
+    background-image: url(piick/pick4.jpg);
+    background-size: 102%;
+}
+#pick5{
+    background-image: url(piick/pick5.jfif);
+    background-size: 102%;
+}
+#pick6{
+    background-image: url(piick/pick6.jfif);
+    background-size: 120%;
+}
+#pick7{
+    background-image: url(piick/pick7.jpg);
+    background-size: 102%;
+}
+#pick8{
+    background-image: url(piick/pick8.jfif);
+    background-size: 102%;
+}
+#pick9{
+    background-image: url(piick/pick9.jfif);
+    background-size: 102%;
+}
+#pick11{
+    background-image: url(piick/pick11.webp);
+    background-size: 102%;
+}
+#pick12{
+    background-image: url(piick/pick12.webp);
+    background-size: 102%;
+}
+#pick10{
+    background-image: url(piick/pick10.jfif);
+    background-size: 100%;
+    background-position: 0 -40px;
+}
+p{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 18px;
+}
