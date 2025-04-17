@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+	<books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Lab12.3.xsd"> 
+	<heading> Модели iPhone</heading> 
+	<card>
+	<bookfirst> 
+		<title>Название: iPhone 15</title> 
+		<price>Цена: 3500р</price> 
+        <ios>iOS: 17 </ios>
+        <camera>Камера: 48 Мп </camera>
+        <year>Год выпуска: 2023 </year>
+	</bookfirst> 
+	<booksecond> 
+		<title>Название: iPhone 12</title> 
+		<price>Цена: 2000р</price> 
+        <ios>iOS: 14 </ios>
+        <camera>Камера: 12 Мп </camera>
+        <year>Год выпуска: 2020 </year>
+	</booksecond> 
+	<bookthird> 
+		<title>Название: iPhone 13</title> 
+		<price>Цена: 2700р</price> 
+        <ios>iOS: 15 </ios>
+        <camera>Камера: 12 Мп </camera>
+        <year>Год выпуска: 2021 </year>
+	</bookthird> 
+	<bookfourth> 
+		<title>Название: iPhone 16</title> 
+		<price>Цена: 9000р</price> 
+        <ios>iOS: 18 </ios>
+        <camera>Камера: 48 Мп </camera>
+        <year>Год выпуска: 2024 </year>
+	</bookfourth> 
+	<bookfifth> 
+		<title>Название: iPhone 11</title> 
+		<price>Цена: 1800р</price> 
+        <ios>iOS: 13 </ios>
+        <camera>Камера: 12 Мп </camera>
+        <year>Год выпуска: 2019 </year>
+	</bookfifth> 
+	</card>
+	</books> 

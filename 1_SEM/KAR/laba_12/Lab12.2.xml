@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE books[
+<!ELEMENT books (card,heading,bookfirst,bookfifth,bookfourth,bookthird,booksecond, title, price)>
+<!ELEMENT card (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT bookfirst (#PCDATA)>
+<!ELEMENT booksecond (#PCDATA)>
+<!ELEMENT bookthird (#PCDATA)>
+<!ELEMENT bookfourth (#PCDATA)>
+<!ELEMENT bookfifth (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT camera (#PCDATA)>
+<!ELEMENT ios (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ENTITY price "Цена:">
+<!ENTITY camera "Камера:">
+<!ENTITY title "Название:">
+<!ENTITY year "Год выпуска:">
+<!ENTITY ios "iOS:">
+]>
+
+<books> 
+	<heading> Модели iPhone</heading> 
+<card>
+	<bookfirst> 
+		<title>&title; iPhone 15</title> 
+		<price> &price; 3500р</price> 
+        <ios> &ios; 17 </ios>
+        <camera> &camera; 48 Мп </camera>
+        <year> &year; 2023 </year>
+	</bookfirst> 
+	<booksecond> 
+		<title>&title; iPhone 12</title> 
+		<price> &price; 2000р</price> 
+        <ios> &ios; 14 </ios>
+        <camera> &camera; 12 Мп </camera>
+        <year> &year; 2020 </year>
+	</booksecond> 
+	<bookthird> 
+		<title>&title; iPhone 13</title> 
+		<price> &price; 2700р</price> 
+        <ios> &ios; 15 </ios>
+        <camera> &camera; 12 Мп </camera>
+        <year> &year; 2021 </year>
+	</bookthird> 
+	<bookfourth> 
+		<title>&title; iPhone 16</title> 
+		<price> &price; 9000р</price> 
+        <ios> &ios; 18 </ios>
+        <camera> &camera; 48 Мп </camera>
+        <year> &year; 2024 </year>
+	</bookfourth> 
+	<bookfifth> 
+		<title>&title; iPhone 11</title> 
+		<price> &price; 1800р</price> 
+        <ios> &ios; 13 </ios>
+        <camera> &camera; 12 Мп </camera>
+        <year> &year; 2019 </year>
+	</bookfifth> 
+	</card>
+</books> 

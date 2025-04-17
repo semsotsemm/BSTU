@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Lab13.xsl"?>
+<prices>
+  <publication>
+    <price>3500р</price>
+    <ios>17</ios>
+    <name>iPhone 15</name>
+    <camera>48 Мп</camera>
+    <year>2023</year>
+  </publication>
+  <publication>
+    <price>2000р</price>
+    <ios>14</ios>
+    <name>iPhone 12</name>
+    <camera>12 Мп</camera>
+    <year>2020</year>
+  </publication>
+  <publication>
+    <price>2700р</price>
+    <ios>15</ios>
+    <name>iPhone 13</name>
+    <camera>12 Мп</camera>
+    <year>2021</year>
+  </publication>
+  <publication>
+    <price>9000р</price>
+    <ios>18</ios>
+    <name>iPhone 16</name>
+    <camera>48 Мп</camera>
+    <year>2024</year>
+  </publication>
+  <publication>
+    <price>1800р</price>
+    <ios>13</ios>
+    <name>iPhone 11</name>
+    <camera>12 Мп</camera>
+    <year>2019</year>
+  </publication>
+</prices>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Lab13.2.xsl"?>
+<students>
+    <student>
+        <name>Антипов Алексей Романович	</name>
+        <grade>10</grade>
+    </student>
+    <student>
+        <name>Белова Софья Александровна</name>
+        <grade>2</grade>
+    </student>
+    <student>
+        <name>Бурблис Кирилл Анатольевич</name>
+        <grade>5</grade>
+    </student>
+    <student>
+        <name>Дубовенко Никита Сергеевич</name>
+        <grade>3</grade>
+    </student>
+    <student>
+        <name>Жигимонт Егор Олегович</name>
+        <grade>6</grade>
+    </student>
+    <student>
+        <name>Иванюк Алексей Андреевич</name>
+        <grade>5</grade>
+    </student>
+    <student>
+        <name>Колтович Артём Николаевич</name>
+        <grade>1</grade>
+    </student>
+    <student>
+        <name>Логвинович Демьян Викторович</name>
+        <grade>3</grade>
+    </student>
+    <student>
+        <name>Лях Иван Александрович</name>
+        <grade>4</grade>
+    </student>
+    <student>
+        <name>Малевич Виолетта Андреевна</name>
+        <grade>3</grade>
+    </student>
+    <student>
+        <name>Манько Егор Дмитриевич</name>
+        <grade>6</grade>
+    </student>
+    <student>
+        <name>Зноско Артем Андреевич</name>
+        <grade>1</grade>
+    </student>
+    <student>
+        <name>Сибильков Егор Дмитриевич</name>
+        <grade>4</grade>
+    </student>
+    <student>
+        <name>Черник Никита Юрьевич</name>
+        <grade>2</grade>
+    </student>
+    <student>
+        <name>Яковенко Арсений Андреевич</name>
+        <grade>5</grade>
+    </student>
+</students>

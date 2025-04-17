@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Данные студента</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <form onsubmit="return checkForm(this)" method="post">
+        <h1>Данные студента</h1>
+        <div class="data">
+            <p><span>Имя студента</span><input type="text" placeholder="обязательно заполнить" id="name"></p>
+            <p><span>Отчество студента</span><input type="text" placeholder="обязательно заполнить" id="secname"></p>
+            <p><span>Фамилия студента</span><input type="text" placeholder="обязательно заполнить" id="fam"></p>
+            <p><span>Адрес почты</span><input type="text" id="pocht"></p>
+            <p><span>Контактный номер</span><input type="text" id="num"></p>
+        </div>
+        <div class="social">
+            <div class="label">
+                <span>Какую социальную <br>сеть вы используете</span>
+            </div>
+            <div class="var">
+                <span><input type="checkbox" id="state1" class="vk" value="VK">VK</span>
+                <span><input type="checkbox" id="state2" class="face" value="Facebook">Facebook</span>
+                <span><input type="checkbox" id="state3" class="inst" value="Instagram">Instagram</span>
+            </div>
+        </div>
+        <aside>
+            <div class="facult" id="fac">Факультет</div>
+            <div class="facult" id="grop">Группа</div>
+            <div class="facult" id="cour">Курс</div>
+            <div class="dropfac">
+                <div class="dropel">ФИТ</div>
+                <div class="dropel">ИЭФ</div>
+                <div class="dropel">ФПИМ</div>
+                <div class="dropel">ФТОВ</div>
+                <div class="dropel">ФХТИТ</div>
+                <div class="dropel" style="border: none;">Лес.хоз.</div>
+            </div>
+            <div class="dropgrop">
+                <div class="dropel">6 группа</div>
+                <div class="dropel">7 группа</div>
+                <div class="dropel">8 группа</div>
+                <div class="dropel">9 группа</div>
+                <div class="dropel" style="border: none;">10 группа</div>
+            </div>
+            <div class="dropcour">
+                <div class="dropel">1 курс</div>
+                <div class="dropel">2 курс</div>
+                <div class="dropel">3 курс</div>
+                <div class="dropel" style="border: none;">4 курс</div>
+            </div>
+        </aside>
+        <script>
+        document.querySelectorAll('.dropel').forEach(element => {
+            element.addEventListener('click', () => {
+                const text = element.textContent;
+                const parentClass = element.parentElement.className;
+
+                if (parentClass.includes('dropfac')) {
+                    document.getElementById('fac').textContent = text;
+                }
+                else if (parentClass.includes('dropgrop')) {
+                    document.getElementById('grop').textContent = text;
+                } 
+                else if (parentClass.includes('dropcour')) {
+                    document.getElementById('cour').textContent = text;
+                }
+            });
+        });
+    </script>
+        <button type="submit" style="margin-top: 100px;">Отправить</button>
+        <footer id="footed"></footer>
+    </form>
+    <script src="java2.js"></script>
+</body>
+
+</html>

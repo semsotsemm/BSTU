@@ -1,0 +1,103 @@
+books { 
+	width: 100%; 
+} 
+heading { 
+	color: green; 
+	font-size : 40px; 
+	background-color : powderblue; 
+} 
+heading, title, author, publisher, camera, price,ios,year { 
+	text-align: center;
+	display : block; 
+} 
+title{ 
+	margin-top: 30%;
+	font-weight : bold;
+} 
+bookfirst{
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: 40px;
+	background-image: url(iphone15.jpg);
+	display: block;
+	font-size: 0px;
+	margin-top: 30px;
+	width: 300px;
+	height: 300px;
+	border: 2px solid black;
+}
+booksecond{
+	background-repeat: no-repeat;
+	background-size: 62%;
+	background-position: 40px;
+	background-image: url(iphone12.jpg);
+	display: block;
+	font-size: 0px;
+	margin-top: 30px;
+	width: 300px;
+	height: 300px;
+	border: 2px solid black;
+}
+bookthird{
+	background-repeat: no-repeat;
+	background-size: 64%;
+	background-position: 40px;
+	background-image: url(iphone13.jpg);
+	display: block;
+	font-size: 0px;
+	margin-top: 30px;
+	width: 300px;
+	height: 300px;
+	border: 2px solid black;
+}
+bookfourth{
+	background-repeat: no-repeat;
+	background-size: 90%;
+	background-position: 10px;
+	background-image: url(iphone12.png);
+	display: block;
+	font-size: 0px;
+	margin-top: 30px;
+	width: 300px;
+	height: 300px;
+	border: 2px solid black;
+}
+bookfifth{
+	background-repeat: no-repeat;
+	background-size: 110%;
+	background-position: 0px;
+	background-image: url(iphone11.webp);
+	display: block;
+	font-size: 0px;
+	margin-top: 30px;
+	width: 300px;
+	height: 300px;
+	border: 2px solid black;
+}
+bookfirst:hover{
+background-image: none;
+font-size: 20px;
+}
+booksecond:hover{
+background-image: none;
+font-size: 20px;
+}
+bookthird:hover{
+background-image: none;
+font-size: 20px;
+}
+bookfourth:hover{
+background-image: none;
+font-size: 20px;
+}
+bookfifth:hover{
+background-image: none;
+font-size: 20px;
+}
+card{
+	height: 1000px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
