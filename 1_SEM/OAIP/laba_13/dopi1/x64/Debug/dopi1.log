@@ -1,0 +1,4 @@
+﻿  dopi1.cpp
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 13\laba13.1\dopi1\dopi1.cpp(9,7): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 13\laba13.1\dopi1\dopi1.cpp(10,14): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  dopi1.vcxproj -> C:\Users\yyhsi\OneDrive\Рабочий стол\лабы белодед\лаба 13\laba13.1\x64\Debug\dopi1.exe
